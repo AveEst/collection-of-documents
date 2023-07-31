@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link href="https://fonts.cdnfonts.com/css/jokerman" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/9a08b98a16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+
+@media screen and (max-width:848px){
+   
+    .menu-items{
+        width: 100px;
+        display: block;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:0;
+        padding:0;
+  
+    }
+
+    .logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+       
+
+
+    }
+
+        .about-col-1{
+            flex-basis: 100%;
+        }
+
+        .about-col-2{
+            flex-basis: 100%;
+
+        }
+
+    .about-col-1 .teine-pilt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    width:350px;
+
+    }
+
+    .hire-reasons-text-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-title{
+        justify-content: center;
+        display:flex;
+    }
+
+    .hire-reasons{
+        justify-content: center;
+    display:flex;
+    }
+    .hero-info h3{
+            justify-content: center;
+            text-align:center;
+            align-items: center;
+        }
+
+        .hero-info h1 span{
+            text-align:justify;
+            align-items:center;
+            justify-content: center;
+            color:#b469eb;
+            margin-left:10px;
+        }
+        .contact-left h1{
+            justify-content: center;
+    display:flex;
+    }
+
+    .contact-left p{
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+    .contact-left{
+        flex-basis: 100%;
+    }
+
+    .contact-right{
+        flex-basis: 100%;
+    }
+
+    .contact-left p i{
+    justify-content: center;
+    display:flex;
+
+}
+
+.contact-left p{
+    text-align: center;
+}
+
+.btn.btn-2{
+    justify-content: center;
+    display:flex;
+
+
+
+
+}
+
+.social-icons a{
+    margin-left:50%;
+    margin-right:50%;
+
+}}
+
+
+
+
+
+
+    @media screen and (max-width:1205px){
+        .images .shape,
+        .images .girl{
+            display:none;
+}}
+
+
+
+  
+  
+  </style>
+
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+    <img src="images/A-removebg-preview.png" class="logo"></a>      
+    <ul class="menu-items">
+                <li><a href="#header" class="active">Home</a></li>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#portfolio-col-1">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" id="fas fa-times" onclick="closemenu()" style="font-size: 1.5rem; color: var(--base-color); display:none;cursor: pointer;"></i>
+                <i class="fas fa-bars" id="fas fa-bars" onclick="openmenu()" style="font-size: 1.5rem; color: var(--base-color); display:none;cursor: pointer;"></i>
+        </ul>
+        </div>
+
+        </nav>
+        <hr>
+
+
+
+        <div class="hero" id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hero-info">
+                        <h3>Hello, I am </h3>
+            <h1><span class="auto-input"></span></h1> 
+            <h3>A Beginner in Web Development & Design</h3>
+        <p>Welcome to my portfolio website! Although I am new to web development, <br> am enthusiastic and eager to expand my skills and knowledge in this field. 
+        </p>
+        <p>With a passion for web development and keen eye for design, I strive to <br>create visually appealing, engaging and functional digital experiences.
+        </p>
+        <p>As I continue to learn and grow, I will be sharing my projects and<br> progress on this portfolio. </p>
+            
+    </div>
+    <div class="hero-images"></div>
+      <div class="images">
+            <img src="images/lilla-removed.png" class="shape">
+            <img src="images/värviline.png" class="girl">
+        </div>
+    </div>
+</div>
+</div>
+
+<hr>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/värviline.png" class="teine-pilt">
+            </div>
+                
+                <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <h3 class="hire-reasons">Reasons to hire me</h3>
+                <p class=hire-reasons-text-p>Hiriring a beginner web developer and designer can offer several unique advantages and oppurtunities. Here are just a few reasons:</p>
+                    <ol>
+                        <li>Fresh perspective and enthusiasm;</li>
+                        <li>Huge willingness to learn and grow;</li>
+                        <li>Adaptability and flexibility;</li>
+                        <li>Cost-efectiveness.</li>
+                    </ol>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul class="skills-list">
+                        <li><span>Front-End Development</span><br>HTML/CSS/JS</li>
+                        <li><span>App Development</span><br>Microsoft Power Apps</li>  
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul class="skills-list">
+                        <li><span>2022-2023</span><br>1-month internship in Foxway Ltd</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul class="skills-list">
+                        <li><span>2023</span><br> 120h <br> Basic Web Development/Programming course (html, css,
+
+                            bootstrap, javascript, nodejs)</li>
+                        <li><span>2022</span><br> 240h <br> Cloud-based  solution developer training (Microsoft Power Apps)</li>  
+
+                    </ul>
+                
+                </div>
+        
+    </div>
+   </div>
+</div>
+</div>
+   <hr>
+   <div id="portfolio-col-1">
+    <div class="container"></div>
+        <h1 class="sub-title">My recent works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Limited Edition (25).png">
+                <div class="layer">
+                    <h3>LinkedIn Webpage</h3>
+                    <p>LinkedIn with HTML CSS And JS
+                    </p>
+                    <a href="Linkedin-webpage/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="Linkedin-webpage/index.html"><i class="fa-solid fa-code"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (6).png">
+                <div class="layer">
+                    <h3>Youtube Website Clone</h3>
+                    <p>YouTube Website Clone Using HTML CSS And JS
+                    </p>
+                    <a href="Youtube-clone/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+               <div class="work">
+                <img src="images/FB clone.png">
+                <div class="layer">
+                    <h3>Facebook Webpage Clone</h3>
+                    <p>Facebook Webpage Clone In HTML CSS And JS
+
+                    </p>
+                    <a href="Facebook-clone/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                </div></div>
+            
+            <div class="work">
+                <img src="images/Limited Edition (5).png">
+                <div class="layer">
+                    <h3>Super Mario Club</h3>
+                    <p>Mario Club Webpage Clone In HTML CSS
+
+                    </p>
+                    <a href="Marioclub/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                </div></div>
+                <div class="work">
+                    <img src="images/Limited Edition (32).png">
+                    <div class="layer">
+                        <h3>Motor Website</h3>
+                        <p>Motor Website with HTML CSS And JS
+                        </p>
+                        <a href="Motor-website/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Limited Edition (29).png">
+                    <div class="layer">
+                        <h3>Math for Kids</h3>
+                        <p>Math for Kids with HTML CSS And JS
+                        </p>
+                        <a href="Math-for-kids/add.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Limited Edition (14).png">
+                    <div class="layer">
+                        <h3>Code Editor</h3>
+                        <p>Code Editor HTML CSS And JS
+                        </p>
+                        <a href="Code-editor/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                    </div></div>
+                    <div class="work">
+                        <img src="images/Limited Edition (47).png">
+                        <div class="layer">
+                            <h3>Quote Generator </h3>
+                            <p>Quote HTML CSS And JS
+                            </p>
+                            <a href="Quote-generator/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Limited Edition (19).png">
+                        <div class="layer">
+                            <h3>Dad Joke Generator</h3>
+                            <p>Custom Checkbox HTML CSS And JS
+                            </p>
+                            <a href="Dad-joke-generator/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                        </div></div>
+
+                    <div class="work">
+                        <img src="images/Limited Edition (56).png">
+                        <div class="layer">
+                            <h3>ToDo</h3>>
+                            <p>ToDo Menu HTML CSS And JS</p>
+                            </p>
+                            <a href="todo/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                        </div>
+                    </div>
+
+
+
+                    <!--
+
+
+            <div class="work">
+                <img src="images/Limited Edition (58).png">
+                <div class="layer">
+                    <h3>Website Background Video</h3>>
+                    <p>Website Background Video HTML CSS And JS</p>
+                    </p>
+                    <a href="website-background-video/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                    <a href="https://github.com/AveEst/portfolio/tree/main/Youtube-clone"><i class="fa-solid fa-code"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (57).png">
+                <div class="layer">
+                    <h3>Upload Image</h3>>
+                    <p>Upload Image HTML CSS And JS</p>
+                    </p>
+                    <a href="Upload-image/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (55).png">
+                <div class="layer">
+                    <h3>Testimonial Slider</h3>>
+                    <p>Testimonial Slider HTML CSS And JS</p>
+                    </p>
+                    <a href="Testimonial-slider/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (21).png">
+                <div class="layer">
+                    <h3>Embed Youtube Video</h3>
+                    <p>Embed Youtube Video HTML CSS
+                    </p>
+                    <a href="Embed-youtube-video/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Limited Edition (54).png">
+                <div class="layer">
+                    <h3>Sticky Navbar Menu</h3>>
+                    <p>Sticky Navbar Menu HTML CSS And JS</p>
+                    </p>
+                    <a href="Sticky-navbar-menu/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (53).png">
+                <div class="layer">
+                    <h3>Social Icons Hover Effect</h3>>
+                    <p>Social Icons Hover Effect HTML CSS</p>
+                    </p>
+                    <a href="Social-icons-hover-effect/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (52).png">
+                <div class="layer">
+                    <h3>Snowman Effect</h3>>
+                    <p>Snowman Effect HTML CSS</p>
+                    </p>
+                    <a href="Snowman-effect/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (51).png">
+                <div class="layer">
+                    <h3>Slider</h3>>
+                    <p>Slider HTML CSS And JS</p>
+                    </p>
+                    <a href="Slider/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (50).png">
+                <div class="layer">
+                    <h3>Sidebar </h3>
+                    <p>Sidebar HTML CSS 
+                    </p>
+                    <a href="Sidebar/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (49).png">
+                <div class="layer">
+                    <h3>Sidebar Menu </h3>
+                    <p>Sidebar Menu HTML CSS And JS
+                    </p>
+                    <a href="Sidebar-menu/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (48).png">
+                <div class="layer">
+                    <h3>Share Icons </h3>
+                    <p>Share Icons HTML CSS And JS
+                    </p>
+                    <a href="Share-icons/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Limited Edition (46).png">
+                <div class="layer">
+                    <h3>QA </h3>
+                    <p>QA HTML CSS And JS
+                    </p>
+                    <a href="QA/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="work">
+                <img src="images/Limited Edition (45).png">
+                <div class="layer">
+                    <h3>Text Animation </h3>
+                    <p>Text Animation HTML CSS
+                    </p>
+                    <a href="Text-animation/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (44).png">
+                <div class="layer">
+                    <h3>Smoke Animation </h3>
+                    <p>Smoke Animation HTML CSS
+                    </p>
+                    <a href="Smoke-animation/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (43).png">
+                <div class="layer">
+                    <h3>Social Media Icon Hover Effect </h3>
+                    <p>Social Media Icon Hover Effect HTML CSS
+                    </p>
+                    <a href="Social-media-icon-hover-effect/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (42).png">
+                <div class="layer">
+                    <h3>Loading Spinner With Glow Effect </h3>
+                    <p>Loading Spinner with Glow Effect HTML CSS And JS
+                    </p>
+                    <a href="Loading/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (41).png">
+                <div class="layer">
+                    <h3>Glow Effect </h3>
+                    <p>Glow Effect HTML CSS
+                    </p>
+                    <a href="Glow-effect/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (40).png">
+                <div class="layer">
+                    <h3>CSS Transform Properties </h3>
+                    <p>CSS Transform Properties HTML CSS 
+                    </p>
+                    <a href="CSS-transform-properties/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (39).png">
+                <div class="layer">
+                    <h3>Bouncing Ball Effect </h3>
+                    <p>Bouncing Ball Effect HTML CSS
+                    </p>
+                    <a href="Bouncing-ball-effect/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (38).png">
+                <div class="layer">
+                    <h3>Popup </h3>
+                    <p>Popup with HTML CSS And JS
+                    </p>
+                    <a href="Popup/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (36).png">
+                <div class="layer">
+                    <h3>Navigation Menu Indicator </h3>
+                    <p>Navigation Menu Indicator with HTML CSS And JS
+                    </p>
+                    <a href="Navigation-menu-indicator/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (37).png">
+                <div class="layer">
+                    <h3>Password Input</h3>
+                    <p>Password Input with HTML CSS And JS
+                    </p>
+                    <a href="Password-input/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (35).png">
+                <div class="layer">
+                    <h3>Navbar Menu </h3>
+                    <p>Navbar Menu with HTML CSS And JS
+                    </p>
+                    <a href="Navbar-menu/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (34).png">
+                <div class="layer">
+                    <h3>Music Player </h3>
+                    <p>Music Player with HTML CSS And JS
+                    </p>
+                    <a href="Music-player/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (33).png">
+                <div class="layer">
+                    <h3>Mouse Event</h3>
+                    <p>Mouse Event with HTML CSS And JS
+                    </p>
+                    <a href="Mouse-event/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Limited Edition (31).png">
+                <div class="layer">
+                    <h3>Month Calendar</h3>
+                    <p>Month Calendar with HTML CSS And JS
+                    </p>
+                    <a href="Month-calendar/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (30).png">
+                <div class="layer">
+                    <h3>Mini Calendar</h3>
+                    <p>Mini Calendar with HTML CSS And JS
+                    </p>
+                    <a href="Mini-calendar/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Limited Edition (28).png">
+                <div class="layer">
+                    <h3>Embed Google Maps</h3>
+                    <p>Embed Google Maps with HTML CSS
+                    </p>
+                    <a href="Embed-google-map/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (27).png">
+                <div class="layer">
+                    <h3>Login Page</h3>
+                    <p>Login Page with HTML CSS
+                    </p>
+                    <a href="Login-page/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (26).png">
+                <div class="layer">
+                    <h3>Loading Bar</h3>
+                    <p>Loading Bar with HTML CSS And JS
+                    </p>
+                    <a href="Loading-bar/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Limited Edition (24).png">
+                <div class="layer">
+                    <h3>Highlights</h3>
+                    <p>Highlights with HTML CSS And JS
+                    </p>
+                    <a href="Highlights/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Limited Edition (23).png">
+                <div class="layer">
+                    <h3>Footer</h3>
+                    <p>Footer HTML CSS
+                    </p>
+                    <a href="Footer/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+          
+            
+            
+                <div class="work">
+                    <img src="images/Limited Edition.png">
+                    <div class="layer">
+                        <h3>Animated Emoji</h3>
+                        <p>Animated Emoji In HTML CSS
+    
+                        </p>
+                        <a href="Animated-emoji/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div></div>
+
+         
+            <div class="work">
+            <img src="images/Untitled design (1).png">
+                <div class="layer">
+                    <h3>Functional Calculator</h3>
+                    <p>Calculator Using HTML CSS And JS
+
+                    </p>
+                    <a href="Calculator/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> </div>
+
+                <div class="work">
+                    <img src="images/Untitled design (3).png">
+                    <div class="layer">
+                        <h3>Clock</h3>
+                        <p>Clock Using HTML CSS And JS
+
+                        </p>
+                        <a href="Clock/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div></div>
+                    <div class="work">
+                        <img src="images/Untitled design (4).png">
+                        <div class="layer">
+                            <h3>Confetti Animation</h3>
+                            <p>Confetti Animation Using HTML CSS And JS
+                            </p>
+                            <a href="Confetti/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div></div>
+                        <div class="work">
+                            <img src="images/Limited Edition (2).png">
+                            <div class="layer">
+                                <h3>Image Gallery</h3>
+                                <p>Image Gallery Using HTML CSS And JS
+                                </p>
+                                <a href="Image-gallery/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div></div>
+                    <div class="work">
+                        <img src="images/Limited Edition (7).png">
+                        <div class="layer">
+                            <h3>Drop-Down Menu</h3>
+                            <p>Drop-Down Menu Using HTML CSS And JS
+                            </p>
+                            <a href="Drop-down-menu/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div></div>
+                        <div class="work">
+                            <img src="images/Limited Edition (4).png">
+                            <div class="layer">
+                                <h3>Feedback</h3>
+                                <p>Feedback Using HTML CSS And JS
+                                </p>
+                                <a href="Feedback/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div></div>
+                            <div class="work">
+                                <img src="images/Limited Edition (16).png">
+                                <div class="layer">
+                                    <h3>Background Colors</h3>
+                                    <p>Background Colors Using HTML CSS And JS
+                                    </p>
+                                    <a href="Background-colors/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div></div>
+                                <div class="work">
+                                    <img src="images/Limited Edition (17).png">
+                                    <div class="layer">
+                                        <h3>Counter Project</h3>
+                                        <p>Button Hover Using HTML CSS And JS
+                                        </p>
+                                        <a href="Counter/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div></div>
+                                    <div class="work">
+                                        <img src="images/Limited Edition (20).png">
+                                        <div class="layer">
+                                            <h3>Dark Mode Toggle</h3>
+                                            <p>Dark Mode Toggle Using HTML CSS And JS
+                                            </p>
+                                            <a href="Dark-mode-toggle/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </div></div>
+                                    
+                                    <div class="work">
+                                        <img src="images/Limited Edition (18).png">
+                                        <div class="layer">
+                                            <h3>Custom Checkbox</h3>
+                                            <p>Custom Checkbox Using HTML CSS 
+                                            </p>
+                                            <a href="Custom-checkbox/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </div></div>
+                                <div class="work">
+                                    <img src="images/Limited Edition (15).png">
+                                    <div class="layer">
+                                        <h3>Button Hover</h3>
+                                        <p>Button Hover Using HTML CSS 
+                                        </p>
+                                        <a href="Button-hover/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div></div>
+                                    
+                                <div class="work">
+                                    <img src="images/Limited Edition (11).png">
+                                    <div class="layer">
+                                        <h3>Button Click Changes Color</h3>
+                                        <p>Button Click Changes Color Using HTML CSS And JS
+                                        </p>
+                                        <a href="Button-click-change-color/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div></div>
+                                <div class="work">
+                                    <img src="images/Limited Edition (10).png">
+                                    <div class="layer">
+                                        <h3>Background Video</h3>
+                                        <p>Background Video Using HTML CSS And JS
+                                        </p>
+                                        <a href="Background-video/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div></div>
+                        <div class="work" >
+                            <img src="images/Limited Edition (8).png">
+                            <div class="layer">
+                                <h3>Animated Logo</h3>
+                                <p>Animated Logo Using HTML CSS 
+            
+                                </p>
+                                <a href="Animated-logo/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div></div>
+                    
+                            <div></div>
+                        -->
+                       
+                            <div class="button-container">
+                                <div class="button-row">
+                <a href="#" class="btn" id="see-more-btn" style="margin-right:10px">See more</a>
+                <a href="#" class="btn" id="see-less-btn" style="display: none;">See less</a>
+               
+               
+
+    
+
+                
+        </div></div>
+    </div>
+    <hr>
+   
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title-contact">Contact me</h1>
+                    <p><i class="fa-solid fa-location-dot"></i></i>Tartu, Estonia</p>
+                    <p><i class="fa-solid fa-envelope"></i></i>avearak@gmail.com </p>
+                    <p><i class="fa-solid fa-phone"></i>+372 5596 4571</p>
+                    <div class="social-icons">
+                        <a href="http://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                      
+                    </div>
+                    <a href="images/Resume, Ave Arak.pdf" download class="btn btn-2">Download CV</a>
+                
+                    
+                </div>
+            
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name " placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+    <hr>
+<div class="copyright" id="copyright">
+    <p>Copyright @ Ave Arak. All Rights Reserved.  Made with <i class="fa-solid fa-heart"></i></p>
+    
+    <hr>
+    <button onclick="scrollToTop()" id="backToTopBtn"><i class="fas fa-arrow-up"></i></button>
+  </a>
+   
+   
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script src="https://kit.fontawesome.com/9a08b98a16.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/9a08b98a16.js" crossorigin="anonymous"></script>
+
+   </script>
+   <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbwf1l__t_E158RI34NdGpS-xrV-TR-QQdaYshcacoeRrqc_55XyBbAQ5E0b_DH6me'
+
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      msg.innerHTML="Message sent successfully"
+      setTimeout(function(){
+        msg.innerHTML=""
+     
+    },5000)
+    form.reset()
+})
+
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+
+<script src="app.js"></script>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/jokerman');
+    </style>
+    
+</html>
