@@ -546,7 +546,7 @@ tab-contents-list ul li{
   flex-basis: 35%;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 
   
 }
@@ -559,9 +559,8 @@ tab-contents-list ul li{
 
 .contact-left p i{
   text-align: justify;
-  justify-content: center;
+  justify-content: left;
   display:flex;
-  justify-content: center;
   font-size: var(--h1-size);
 }
 
